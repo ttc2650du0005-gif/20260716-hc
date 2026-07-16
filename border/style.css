@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+p {
+    border: 1px solid #000;
+    width: 500px;
+    padding: 20px;
+    margin: 40px;
+    background: skyblue;
+}
+
+li {
+  /* 境界線 */
+  border: 1px solid #000;
+  /* スタイル調整（確認用） */
+  width: 100px;
+  margin-top: 10px;
+}
+
+/* 演習：線の種類 */
+/* 共通スタイル */
+div {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* 実線 */
+.solid {
+  border: 1px solid #000;
+}
+
+/* 破線 */
+.dashed {
+  border: 1px dashed #000;
+}
+
+/* 点線 */
+.dotted {
+  border: 1px dotted #000;
+}
+
+/* 二重線 */
+.double {
+  border: 1px double #000;
+}
+
+/* 彫り込んだような線 */
+.groove {
+  border: 1px groove #000;
+}
+
+/* 盛り上がったような線 */
+.ridge {
+  border: 1px ridge  #000;
+}
+
+/* 内側に押し込んだような線 */
+.inset {
+  border: 1px inset  #000;
+}
+
+/* 外側へ浮き出たような線 */
+.outset {
+  border: 1px outset #f59d9d;
+}

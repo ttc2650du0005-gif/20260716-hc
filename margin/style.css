@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.margin {
+    width: 200px;
+    background: tomato;
+    margin: 40px 20px 60px 80px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.centering {
+  /* 中央配置 */
+  width: 300px;
+  margin: auto;
+  /* スタイル調整（確認用） */
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  background: #ccc;
+}

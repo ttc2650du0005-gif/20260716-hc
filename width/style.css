@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* px指定 */
+.box {
+    width: 100px;
+    background: skyblue;
+}
+
+/* %指定 */
+.parent {
+     width: 600px;
+     background: aquamarine;
+}
+
+.child {
+    width: 50%;
+    background: orange;
+}
+
+/* em指定 */
+.gm {
+	width: 9em;
+	background: gold;
+    font-size: 24px;
+}

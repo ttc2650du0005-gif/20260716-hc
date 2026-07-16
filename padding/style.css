@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+div {
+    width: 150px;
+    height: 100px;
+    background: #d1d1fa;
+    /* 値は1つ */
+    /* padding: 20px; */
+    /* 値が2つ */
+    /* padding: 20px 40px; */
+    /* padding: 10px 20px 30px; */
+    /* 値が4つ */
+    padding: 10px 20px 30px 40px;
+}
+
+/* 個別指定 */
+p {
+    background: #f9c9bf;
+    width: 150px;
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+/* 演習：余白のあるボタン */
+button {
+	padding: 10px 20px;
+}
+
+/* 演習：画像付きボタン */
+.contact {
+  width: 200px;
+  text-align: center;
+  /* background: #377dc9; */
+  color: #fff;
+  padding: 20px 20px 20px 50px;
+  background: #377dc9 url("arrow.png") left 10px center / 30px no-repeat;
+}
+ 
